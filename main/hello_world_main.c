@@ -15,7 +15,7 @@
 
 void app_main()
 {
-    printf("Hello world!\n");
+    printf("Joshua Elcock 816024926\n");
 
     /* Print chip information */
     esp_chip_info_t chip_info;
@@ -27,8 +27,9 @@ void app_main()
 
     printf("%dMB %s flash\n", spi_flash_get_chip_size() / (1024 * 1024),
             (chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
+    int time  = 26%17;
 
-    for (int i = 10; i >= 0; i--) {
+    for (int i = time; i > 0; i--) {
         printf("Restarting in %d seconds...\n", i);
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
