@@ -1,1 +1,1 @@
-0520b26-dirty hello-world v3.4-49-g0f200b46-dirty
+ec247ab-dirty hello-world v3.4-49-g0f200b46-dirty
